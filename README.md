@@ -159,7 +159,7 @@ Items mentioned below ideally create a link to one of the problems they slove, e
 Here is the anticipated tooling. What follows is the list of tools I would add and why.
 
 * **make** - repeats `🌈1` 
-  * I am a fan of simple makefiles, which catch dependencies between files and run a script to generate them. This served _OP_ extremely well.
+  * I am a fan of simple makefiles, which cache dependencies between files and run a script to generate them. This served _OP_ extremely well.
   * get parallelization for free, and make transparent which programs to call and how to get work done.
   * the Makefile serves as hub keeping all commands one would run to interact with the project in any way.
   * It helps to generate crates only when needed, and can help manage publishing of crates while avoiding trying to upload duplicates.
